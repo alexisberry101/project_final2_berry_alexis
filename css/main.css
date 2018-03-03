@@ -21,6 +21,12 @@ z-index: 0;
 #main {
   padding-top: 75px;
 }
+h1 {
+  font-size: 2em;
+  font-family: 'Clicker Script', cursive;
+  color:#5a291e;
+  padding: 1% 1% 1% 1%;
+}
 h2 {
   font-size: 1.2em;
   font-family: 'Josefin Slab', serif;
@@ -39,7 +45,32 @@ h4 {
   color: #5a291e;
   padding: 1% 1% 1% 1%;
 }
-
+h5 {
+  font-size: 0.8em;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #5a291e;
+  padding: 1% 1% 1% 1%;
+}
+h6 {
+  font-size: 0.8em;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #5a291e;
+  padding: 1% 1% 1% 1%;
+  text-decoration: underline;
+}
+h7 {
+  font-size: 0.8em;
+  font-family: Georgia;
+  color: #999999;
+  font-style: italic;
+  padding: 1% 1% 1% 1%;  
+}
+p {
+  font-size: .5em;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #dfccc8;
+  padding: 0% 1% 0% 1%;
+}
 .square {
     border: 5px solid white;
     background-color: #caeae9;
