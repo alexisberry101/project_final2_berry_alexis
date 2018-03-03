@@ -25,13 +25,13 @@ h2 {
   font-size: 1.2em;
   font-family: 'Josefin Slab', serif;
   color: #838488;
-  padding: 15px 15px 0px 15px;
+  padding: 1% 1% 1% 1%;
 }
 h3 {
   font-size: 1.2em;
   font-family: 'Josefin Sans', sans-serif;
   color: #ee6230;
-  padding: 15px 15px 0px 15px;
+  padding: 1% 1% 1% 1%;
 }
 .square {
     border: 5px solid white;
@@ -140,3 +140,12 @@ h3 {
     font-size: 1em;
     padding-top: 30%;
   }
+.texture1 {
+  padding: 1% 1% 1% 1%;
+}
+.texture2 {
+  padding: 1% 1% 1% 1%;
+}
+.texture3 {
+  padding: 1% 1% 1% 1%;
+}
