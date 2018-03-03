@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.headerbox {
+  background-color: #dfccc8;
+  position: absolute;
+  height: 6%;
+  width: 100%;
+  color: #5a291e;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: 'Clicker Script', cursive;
+  z-index: -1; 
+}
+#logo {
+position: absolute;
+z-index: 0;
+}
