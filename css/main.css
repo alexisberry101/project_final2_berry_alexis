@@ -17,6 +17,7 @@
 #logo {
 position: absolute;
 z-index: 0;
+width: 30%;
 }
 #main {
   padding-top: 75px;
@@ -63,7 +64,7 @@ h7 {
   font-family: Georgia;
   color: #999999;
   font-style: italic;
-  padding: 1% 1% 1% 1%;  
+  padding: 1% 1% 1% 1%;
 }
 p {
   font-size: .5em;
@@ -79,6 +80,7 @@ p {
     position: relative;
     text-align: center;
     width: 30%;
+    max-width: 200px;
   }
 
 .square:after {
@@ -102,6 +104,7 @@ p {
     position: relative;
     text-align: center;
     width: 30%;
+    max-width: 200px;
   }
 .square1:after {
     content: "";
@@ -123,6 +126,7 @@ p {
     position: relative;
     text-align: center;
     width: 30%;
+    max-width: 200px;
   }
   .square2:after {
     content: "";
@@ -144,6 +148,7 @@ p {
     position: relative;
     text-align: center;
     width: 30%;
+    max-width: 200px;
   }
 .square3:after {
     content: "";
@@ -165,6 +170,7 @@ p {
     position: relative;
     text-align: center;
     width: 30%;
+    max-width: 200px;
   }
 .square4:after {
     content: "";
@@ -201,4 +207,53 @@ p {
     width: 30%;
     padding: 1% 1% 1% 1%;
     box-shadow: 2px 2px #838488;
+    margin-top: 1%;
+}
+/***Media Queries***/
+@media (min-width: 500px) {
+  .headerbox {
+    font-size: 2em;
+  }
+  .square {
+    width: calc(100% / 2);
+    display: inline;
+  }
+  .square1 {
+    width: calc(100% / 2);
+    display: inline;
+  }
+}
+@media (min-width: 750px) {
+  .texture1 {
+    float: left;
+  }
+}
+@media (min-width: 1000px) {
+  .headerbox {
+    font-size: 3em;
+    height: 8%;
+  }
+  h1 {
+    font-size: 4em;
+  }
+  h2 {
+    font-size: 2.4em;
+  }
+  h3, h4 {
+    font-size: 2.4em;
+  }
+  h5, h6, h7 {
+    font-size: 1.6em;
+  }
+  p {
+    font-size: 1em;
+  }
+  .texture2 {
+    float: left;
+  }
+}
+@media (min-width: 1500px) {
+  aside {
+    width: 50%;
+  }
 }
