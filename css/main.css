@@ -1,259 +1,290 @@
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
+   margin: 0;
+   padding: 0;
+   border: 0;
 }
+
 .headerbox {
-  background-color: #dfccc8;
-  position: absolute;
-  height: 6%;
-  width: 100%;
-  color: #5a291e;
-  text-align: center;
-  font-size: 1.2em;
-  font-family: 'Clicker Script', cursive;
-  z-index: -1;
+   background-color: #dfccc8;
+   position: absolute;
+   height: 6%;
+   width: 100%;
+   color: #5a291e;
+   text-align: center;
+   font-size: 1.2em;
+   font-family: 'Clicker Script', cursive;
+   z-index: -1;
 }
+
 #logo {
-position: absolute;
-z-index: 0;
-width: 30%;
+   position: absolute;
+   z-index: 0;
+   width: 30%;
 }
-#main {
-  padding-top: 75px;
+
+main {
+   padding-top: 75px;
 }
+
 h1 {
-  font-size: 2em;
-  font-family: 'Clicker Script', cursive;
-  color:#5a291e;
-  padding: 1% 1% 1% 1%;
+   font-size: 2em;
+   font-family: 'Clicker Script', cursive;
+   color:#5a291e;
+   padding: 1% 1% 1% 1%;
 }
+
 h2 {
-  font-size: 1.2em;
-  font-family: 'Josefin Slab', serif;
-  color: #838488;
-  padding: 1% 1% 1% 1%;
+   font-size: 1.2em;
+   font-family: 'Josefin Slab', serif;
+   color: #838488;
+   padding: 1% 1% 1% 1%;
 }
+
 h3 {
-  font-size: 1.2em;
-  font-family: 'Josefin Sans', sans-serif;
-  color: #ee6230;
-  padding: 1% 1% 1% 1%;
+   font-size: 1.2em;
+   font-family: 'Josefin Sans', sans-serif;
+   color: #ee6230;
+   padding: 1% 1% 1% 1%;
 }
+
 h4 {
-  font-size: 1.2em;
-  font-family: 'Josefin Slab', serif;
-  color: #5a291e;
-  padding: 1% 1% 1% 1%;
+   font-size: 1.2em;
+   font-family: 'Josefin Slab', serif;
+   color: #5a291e;
+   padding: 1% 1% 1% 1%;
 }
+
 h5 {
-  font-size: 0.8em;
-  font-family: 'Josefin Sans', sans-serif;
-  color: #5a291e;
-  padding: 1% 1% 1% 1%;
+   font-size: 0.8em;
+   font-family: 'Josefin Sans', sans-serif;
+   color: #5a291e;
+   padding: 1% 1% 1% 1%;
 }
+
 h6 {
-  font-size: 0.8em;
-  font-family: 'Josefin Sans', sans-serif;
-  color: #5a291e;
-  padding: 1% 1% 1% 1%;
-  text-decoration: underline;
+   font-size: 0.8em;
+   font-family: 'Josefin Sans', sans-serif;
+   color: #5a291e;
+   padding: 1% 1% 1% 1%;
+   text-decoration: underline;
 }
+
 h7 {
-  font-size: 0.8em;
-  font-family: Georgia;
-  color: #999999;
-  font-style: italic;
-  padding: 1% 1% 1% 1%;
+   font-size: 0.8em;
+   font-family: Georgia;
+   color: #999999;
+   font-style: italic;
+   padding: 1% 1% 1% 1%;
 }
+
 p {
-  font-size: .5em;
-  font-family: 'Josefin Sans', sans-serif;
-  color: #dfccc8;
-  padding: 0% 1% 0% 1%;
+   font-size: .5em;
+   font-family: 'Josefin Sans', sans-serif;
+   color: #dfccc8;
+   padding: 0% 1% 0% 1%;
 }
 .square {
-    border: 5px solid white;
-    background-color: #caeae9;
-    color: white;
-    font-family: 'Josefin Slab', serif;
-    position: relative;
-    text-align: center;
-    width: 30%;
-    max-width: 200px;
-  }
+   border: 5px solid white;
+   background-color: #caeae9;
+   color: white;
+   font-family: 'Josefin Slab', serif;
+   position: relative;
+   text-align: center;
+   width: 30%;
+   max-width: 200px;
+}
 
 .square:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-  }
+   content: "";
+   display: block;
+   padding-bottom: 100%;
+}
 
 .content {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    font-size: 1em;
-
-  }
-.square1 {
-    border: 5px solid white;
-    background-color: #ee6230;
-    color: white;
-    font-family: 'Josefin Slab', serif;
-    position: relative;
-    text-align: center;
-    width: 30%;
-    max-width: 200px;
-  }
-.square1:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-  }
-.content1 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    font-size: 1em;
-    padding-top: 30%;
-  }
-.square2 {
-    border: 5px solid white;
-    background-color: #838488;
-    color: white;
-    font-family: 'Josefin Slab', serif;
-    position: relative;
-    text-align: center;
-    width: 30%;
-    max-width: 200px;
-  }
-  .square2:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-  }
-.content2 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    font-size: 1em;
-    padding-top: 30%;
-  }
-.square3 {
-    border: 5px solid white;
-    background-color: #5a291e;
-    color: white;
-    font-family: 'Josefin Slab', serif;
-    position: relative;
-    text-align: center;
-    width: 30%;
-    max-width: 200px;
-  }
-.square3:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   font-size: 1em;
 }
+
+#square1 {
+   border: 5px solid white;
+   background-color: #ee6230;
+   color: white;
+   font-family: 'Josefin Slab', serif;
+   position: relative;
+   text-align: center;
+   width: 30%;
+   max-width: 200px;
+}
+#square1:after {
+   content: "";
+   display: block;
+   padding-bottom: 100%;
+}
+.content1 {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   font-size: 1em;
+   padding-top: 30%;
+}
+
+#square2 {
+   border: 5px solid white;
+   background-color: #838488;
+   color: white;
+   font-family: 'Josefin Slab', serif;
+   position: relative;
+   text-align: center;
+   width: 30%;
+   max-width: 200px;
+}
+.square2:after {
+   content: "";
+   display: block;
+   padding-bottom: 100%;
+}
+.content2 {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   font-size: 1em;
+   padding-top: 30%;
+}
+#square3 {
+   border: 5px solid white;
+   background-color: #5a291e;
+   color: white;
+   font-family: 'Josefin Slab', serif;
+   position: relative;
+   text-align: center;
+   width: 30%;
+   max-width: 200px;
+}
+#square3:after {
+   content: "";
+   display: block;
+   padding-bottom: 100%;
+}
+
 .content3 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    font-size: 1em;
-    padding-top: 30%;
-  }
-.square4 {
-    border: 5px solid white;
-    background-color: #dfccc8;
-    color: white;
-    font-family: 'Josefin Slab', serif;
-    position: relative;
-    text-align: center;
-    width: 30%;
-    max-width: 200px;
-  }
-.square4:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   font-size: 1em;
+   padding-top: 30%;
+}
+#square4 {
+   border: 5px solid white;
+   background-color: #dfccc8;
+   color: white;
+   font-family: 'Josefin Slab', serif;
+   position: relative;
+   text-align: center;
+   width: 30%;
+   max-width: 200px;
+}
+#square4:after {
+   content: "";
+   display: block;
+   padding-bottom: 100%;
 }
 .content4 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    font-size: 1em;
-    padding-top: 30%;
-  }
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   font-size: 1em;
+   padding-top: 30%;
+}
 .texture1 {
-  padding: 1% 1% 1% 1%;
+   padding: 1% 1% 1% 1%;
 }
+
 .texture2 {
-  padding: 1% 1% 1% 1%;
+   padding: 1% 1% 1% 1%;
 }
+
 .texture3 {
-  padding: 1% 1% 1% 1%;
+   padding: 1% 1% 1% 1%;
 }
+
 #button1 {
-    background-color: #caeae9;
-    text-align: center;
-    border-radius: 25px;
-    width: 30%;
-    padding: 1% 1% 1% 1%;
+   background-color: #caeae9;
+   text-align: center;
+   border-radius: 25px;
+   width: 30%;
+   padding: 1% 1% 1% 1%;
 }
 #button2 {
-    background-color: #caeae9;
-    text-align: center;
-    border-radius: 25px;
-    width: 30%;
-    padding: 1% 1% 1% 1%;
-    box-shadow: 2px 2px #838488;
-    margin-top: 1%;
+   background-color: #caeae9;
+   text-align: center;
+   border-radius: 25px;
+   width: 30%;
+   padding: 1% 1% 1% 1%;
+   box-shadow: 2px 2px #838488;
+   margin-top: 1%;
 }
 /***Media Queries***/
+
 @media (min-width: 500px) {
-  .headerbox {
+    .headerbox {
     font-size: 2em;
-  }
-  .square {
+   }
+
+   .square {
+    /* width: calc(100% / 2 - 1em); */
+    display: inline-block;
+}
+
+   /* .square1 {
     width: calc(100% / 2);
     display: inline;
-  }
-  .square1 {
-    width: calc(100% / 2);
-    display: inline;
-  }
+   } */
 }
 @media (min-width: 750px) {
-  .texture1 {
+   .texture1 {
     float: left;
-  }
+   }
 }
 @media (min-width: 1000px) {
-  .headerbox {
+   #left {
+      float: left;
+      width: 35%;
+   }
+
+   #right {
+      margin-left: 15%;
+   }
+
+   .headerbox {
     font-size: 3em;
     height: 8%;
-  }
-  h1 {
+   }
+   h1 {
     font-size: 4em;
-  }
-  h2 {
+   }
+   h2 {
     font-size: 2.4em;
-  }
-  h3, h4 {
+   }
+   h3, h4 {
     font-size: 2.4em;
-  }
-  h5, h6, h7 {
+   }
+   h5, h6, h7 {
     font-size: 1.6em;
-  }
-  p {
+   }
+   p {
     font-size: 1em;
-  }
-  .texture2 {
+   }
+   .texture2 {
     float: left;
-  }
+   }
+   #button1 {
+     float: right; 
+   }
 }
 @media (min-width: 1500px) {
-  aside {
+   aside {
     width: 50%;
-  }
+   }
 }
