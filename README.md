@@ -4,9 +4,9 @@
 
 [Web Host] (http://alexiswberry.com/project_final2_berry_alexis)
 
-[W3C Validator] ()
+[W3C Validator] (https://validator.w3.org/nu/#textarea)
 
-[HTML5 Outliner] ()
+[HTML5 Outliner] (https://gsnedders.html5.org/outliner/process.py)
 
 ##Resourcers 
 - [Apron Picture] (https://www.worldmarket.com/product/gray+stripe+twill+kitchen+linen+collection.do): This is where I got the picture of the apron for the texture section 
@@ -26,4 +26,4 @@
 I reviewed the list of deductions for this project and in the syllabus. 
 
 ##Comments
-I am looking forward to coding the Nancy's Bakery and Cafe website based on my style tile 
+I am looking forward to coding the Nancy's Bakery and Cafe website based on my style tile. 
